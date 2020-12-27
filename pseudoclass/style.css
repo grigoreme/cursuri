@@ -1,0 +1,39 @@
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:active {
+  color: blue !important;
+}
+
+.btn1 .btn:first-child {
+  margin-right: 3px;
+}
+
+.btn1 .btn:last-child {
+  margin-left: 3px;
+}
+
+p:empty {
+  background-color: #FF0000;
+}
+
+section:first-of-type {
+  background: #000;
+}
+
+/* div:not(.row) { [selector]:pseudoClass([selector])
+  background-color: aqua;
+} */
+
+.btn2 .btn:not(:first-child) {
+  margin-left: 3px;
+}
+
+p::after {
+  content: " - Remember this";
+}
